@@ -5,7 +5,21 @@
 // # Perguntar se é juros compostos
 // # Quarto passo -> Gerar Tabela de Progressão
 
-// iniciando a construção da Função para Calcular
+// Capturando dados do Html
+const button = document.querySelector("button");
+const vlr_ini = document.querySelector("#vlr_ini");
+const jur = document.querySelector("#jur");
+const tempo = document.querySelector("#tempo");
+
+
+// Capturando Evento de envio do Botão
+
+button.addEventListener("click", () => {
+    alert(`${vlr_ini.value} ${jur.value} ${tempo.value}`);
+})
+
+
+// Adicionar Função
 
 var valor_inicial = 100
 var valor_juros = 1

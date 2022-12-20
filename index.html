@@ -10,12 +10,12 @@
 <body>
     <div class="principal">
 
-    <label for="Valor Inicial">Valor inicial</label> 
-    <input type="text" placeholder="100.00"><br>
+    <label for="Valor Inicial" >Valor inicial</label> 
+    <input type="text" id="vlr_ini" placeholder="100.00"><br>
     <label for="Juros">Valor do juros em %</label>
-    <input type="text" placeholder="1"><br>
+    <input type="text" id="jur" placeholder="1"><br>
     <label for="periodo">Tempo</label>
-    <input type="Tempo" placeholder="100">
+    <input type="Tempo" id="tempo" placeholder="100">
     <select name="" id="">
         <option value="Dia">Dias</option>
         <option value="Mes">Meses</option>
@@ -23,7 +23,9 @@
     </select><br>
 
 
-    <button>Calcular</button>
+    <button class="button">Calcular</button>
     </div>
+
+    <script src="sources/script.js"></script>
 </body>
 </html>
